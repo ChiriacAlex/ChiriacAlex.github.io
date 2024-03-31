@@ -11,22 +11,11 @@
 </head>
 
 <body>
-    <style>
-        .overlay-image {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top: 66px;
-            background-position: center;
-            background-size: cover;
-            opacity: 0.45;
-        }
-    </style>
+   
 
-    <nav class="navbar navbar-expand-md navbar-light shadow-lg">
+    <nav class="navbar navbar-expand-md navbar-light shadow-lg" style="padding: 0;">
         <div class="container">
-            <a href="#" class="navbar-brand"><img src="images/logo.png" style="width:80px;height:40px;" alt=""></a>
+            <a href="index.html" class="navbar-brand"  style="padding: 0;"><img src="images/logo.png" style="width:65px;height:65px;padding: 0;" alt=""></a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
                 aria-label="Expand Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,14 +40,20 @@
     </nav>
 
 
-    <div class="shadow-lg" style="background-color: black; height: 32rem; "></div>
-    <div class="overlay-image text-center shadow-lg"
-        style="background-image: url(images/programmateur.jpg); height: 32rem;">
+
+    <div class="position-relative text-center " style="height: 32rem;">
+        <img src="images/programmateur.jpg" alt="Your Image" style="height: 32rem ;width:100%">
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: black; opacity: 50%;"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100">
+            
+            <h1 class=" text-white " style="padding-top:210px;">Je suis <i>Chiriac Alex</i></h1>
+            <h3 class=" " style="color: gray;padding-top:20px;" >programmeur en devenir</h3>
+        </div>
+
     </div>
-    <div class="text-center" style="position: absolute; top: 70px; right:38%;">
-        <h1 style="color: white;padding-top: 210px;">Je suis <i>Chiriac Alex</i></h1>
-        <h3 style="color: gray;padding-top: 10px;">programmeur en devenir</h3>
-    </div>
+
+    
+
 
     <section class=" text-muted p-5">
         <div class="row  text-center text-sm-center text-lg-start">
@@ -80,7 +75,7 @@
             </div>
             <div class="col-lg-5 col-sm-12 offset-lg-1">
                 <img src="images\mon_photo.jpg" alt="" class="rounded-circle shadow"
-                    style="height: 400px; width: 340px;">
+                    style="height: 400px; width: 320px;">
             </div>
         </div>
         <div class="d-flex justify-content-center pt-5">

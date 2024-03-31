@@ -11,22 +11,11 @@
 </head>
 
 <body>
-    <style>
-        .overlay-image {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top: 66px;
-            background-position: center;
-            background-size: cover;
-            opacity: 0.45;
-        }
-    </style>
+    
 
-    <nav class="navbar navbar-expand-md navbar-light shadow-lg">
+    <nav class="navbar navbar-expand-md navbar-light shadow-lg" style="padding: 0;">
         <div class="container">
-            <a href="#" class="navbar-brand"><img src="images/logo.png" style="width:80px;height:40px;" alt=""></a>
+            <a href="index.html" class="navbar-brand"  style="padding: 0;"><img src="images/logo.png" style="width:65px;height:65px;padding: 0;" alt=""></a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
                 aria-label="Expand Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,21 +40,26 @@
     </nav>
 
 
-    <section class="bg-dark text-center text-light p-0  text-sm-start" style=" height: 16rem;">
-        <div class="overlay-image" style="background-image: url(images/project_page.jpg); height: 16rem;"></div>
-        <div class="container pt-4" style="opacity: 1; position:absolute">
-            <h1 class="p-3">Mes projets personnels en informatique </h1>
-            <h3 class="lead px-3">
+
+    <div class="position-relative " style="height: 16rem;">
+        <img src="images/project_page.jpg" alt="Your Image" style="height: 16rem ;width:100%">
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: black; opacity: 50%;"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100">
+            <h1 class="d-flex p-3  text-white ">Mes projets personnels en informatique </h1>
+            <p class="lead p-3  text-white ">
                 Ici, vous trouverez tous les projets sur lesquels j'ai travaillé.
-            </h3>
+            </p>
         </div>
-    </section>
+
+    </div>
+
 
     <div class="row row-cols-3 p-3 justify-content-center align-itmes-center ">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5 ">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px ">
-                    <img class="card-img-top" src="images/images_projects/project_enigma.PNG" alt="" style="height: 240px;">
+                    <img class="card-img-top" src="images/images_projects/project_enigma.PNG" alt=""
+                        style="height: 240px;">
                     <div class="card-body">
                         <h4 class="card-title">Project Enigma</h4>
                         <p class="card-text">Un projet qui simule un appareil Enigma avec Python</p>
@@ -78,7 +72,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px ;">
-                    <img class="card-img-top" src="images/images_projects/project_arbre.PNG" alt="" style="height: 240px;">
+                    <img class="card-img-top" src="images/images_projects/project_arbre.PNG" alt=""
+                        style="height: 240px;">
                     <div class="card-body">
                         <h4 class="card-title">Arbre binaire</h4>
                         <p class="card-text">Ce programme affiche la représentation graphique d'un arbre</p>
@@ -91,7 +86,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px">
-                    <img class="card-img-top" src="images/images_projects/porject_paranthesage.PNG" alt="" style="height: 240px;">
+                    <img class="card-img-top" src="images/images_projects/porject_paranthesage.PNG" alt=""
+                        style="height: 240px;">
                     <div class="card-body">
                         <h4 class="card-title">Paranthèsage</h4>
                         <p class="card-text">Un programme qui vérifiera si toutes les parenthèses sont fermées.</p>
@@ -104,7 +100,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px">
-                    <img class="card-img-top" src="images/images_projects/project_bataille.PNG" alt="" style="height: 240px;">
+                    <img class="card-img-top" src="images/images_projects/project_bataille.PNG" alt=""
+                        style="height: 240px;">
                     <div class="card-body">
                         <h4 class="card-title">Jeux Bataille</h4>
                         <p class="card-text">Ce jeu simulerait une partie de bataille avec Python</p>
@@ -117,10 +114,12 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px">
-                    <img class="card-img-top" src="images/images_projects/Project_dichotomie.PNG" alt="" style="height: 215px;">
+                    <img class="card-img-top" src="images/images_projects/Project_dichotomie.PNG" alt=""
+                        style="height: 215px;">
                     <div class="card-body">
                         <h4 class="card-title">Dichotomie</h4>
-                        <p class="card-text">C'est un jeu de deviner un nombre en utilisant la méthode de la dichotomie pour le trouver rapidement</p>
+                        <p class="card-text">C'est un jeu de deviner un nombre en utilisant la méthode de la dichotomie
+                            pour le trouver rapidement</p>
                         <a href="projects_sites/project_dichotomie.html" class="btn btn-dark">Sur lui</a>
                     </div>
                 </div>
@@ -130,7 +129,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px">
-                    <img class="card-img-top" src="images/images_projects/project_flocon.PNG" alt="" style="height: 260px;">
+                    <img class="card-img-top" src="images/images_projects/project_flocon.PNG" alt=""
+                        style="height: 260px;">
                     <div class="card-body">
                         <h4 class="card-title">Flocon</h4>
                         <p class="card-text">Ce programme va creer un flocon</p>
@@ -143,7 +143,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px">
-                    <img class="card-img-top" src="images/images_projects/project_conversion_binaire.PNG" alt="" style="height: 240px;">
+                    <img class="card-img-top" src="images/images_projects/project_conversion_binaire.PNG" alt=""
+                        style="height: 240px;">
                     <div class="card-body">
                         <h4 class="card-title">Conversion Binaire</h4>
                         <p class="card-text">Ce programme convertit des décimaux en binaire</p>
@@ -156,10 +157,12 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px">
-                    <img class="card-img-top" src="images/images_projects/tambour_project.PNG" alt="" style="height: 220px;">
+                    <img class="card-img-top" src="images/images_projects/tambour_project.PNG" alt=""
+                        style="height: 220px;">
                     <div class="card-body">
                         <h4 class="card-title">Tambour</h4>
-                        <p class="card-text">C'est un site qui utilise jQuery pour jouer avec des tambours, que ce soit à l'aide du clavier ou non</p>
+                        <p class="card-text">C'est un site qui utilise jQuery pour jouer avec des tambours, que ce soit
+                            à l'aide du clavier ou non</p>
                         <a href="projects_sites/project_tambour.html" class="btn btn-dark">Sur lui</a>
                     </div>
                 </div>
@@ -169,10 +172,12 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-5">
             <div class="d-flex justify-content-center">
                 <div class="card shadow" style="width:300px">
-                    <img class="card-img-top" src="images/images_projects/project_jeu_simon.PNG" alt="" style="height: 240px;">
+                    <img class="card-img-top" src="images/images_projects/project_jeu_simon.PNG" alt=""
+                        style="height: 240px;">
                     <div class="card-body">
                         <h4 class="card-title">Jeu de Simon</h4>
-                        <p class="card-text">Un site similaire qui utilise JQuery où vous pouvez jouer au Jeu de Simon</p>
+                        <p class="card-text">Un site similaire qui utilise JQuery où vous pouvez jouer au Jeu de Simon
+                        </p>
                         <a href="projects_sites/project_simon.html" class="btn btn-dark">Sur lui</a>
                     </div>
                 </div>

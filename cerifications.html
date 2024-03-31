@@ -11,22 +11,11 @@
 </head>
 
 <body>
-    <style>
-        .overlay-image {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top: 66px;
-            background-position: center;
-            background-size: cover;
-            opacity: 0.45;
-        }
-    </style>
+    
 
-    <nav class="navbar navbar-expand-md navbar-light shadow-lg">
+     <nav class="navbar navbar-expand-md navbar-light shadow-lg" style="padding: 0;">
         <div class="container">
-            <a href="#" class="navbar-brand"><img src="images/logo.png" style="width:80px;height:40px;" alt=""></a>
+            <a href="index.html" class="navbar-brand"  style="padding: 0;"><img src="images/logo.png" style="width:65px;height:65px;padding: 0;" alt=""></a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
                 aria-label="Expand Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,7 +31,7 @@
 
                     </li>
                     <li class="nav-item mx-3">
-                        <a href="#" class="nav-link"><b>Certificats</b></a>
+                        <a href="cerifications.html" class="nav-link"><b>Certificats</b></a>
 
                     </li>
                 </ul>
@@ -51,16 +40,19 @@
     </nav>
 
 
-    <section class="bg-dark text-center text-light p-0  text-sm-start" style=" height: 16rem;">
-        <div class="overlay-image" style="background-image: url(images/diplome.jpeg); height: 16rem;"></div>
-        <div class="container pt-4" style="opacity: 1; position:absolute">
-            <h1 class="p-3">Mes diplomes et certifications </h1>
-            <h3 class="lead px-3">
+
+    <div class="position-relative " style="height: 16rem;">
+        <img src="images/diplome.jpeg" alt="Your Image" style="height: 16rem ;width:100%">
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: black; opacity: 50%;"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100">
+            <h1 class="py-4 px-3 text-white">Mes diplomes et certifications </h1>
+            <h3 class="lead px-3 text-white">
                 Voici un résumé de mes réalisations académiques et extrascolaires,<br> ainsi que des certifications obtenues
                 depuis l'école primaire. <br> J'ai inclus les plus significatives pour éviter de surcharger le site.
             </h3>
         </div>
-    </section>
+
+    </div>
 
     <div class="container p-4">
         <h1 class="text-muted ">Cerificats</h1>
@@ -110,6 +102,8 @@
                 </div>
             </div>
         </div>
+
+        
 
         <div class="col-lg-6 col-sm-12 col-12  py-3">
             <div class="d-flex justify-content-center">
